@@ -24,7 +24,7 @@ public class SecondActivity extends AppCompatActivity {
         time = intent1.getLongExtra("Day",time);
         day.setText(time +"");
         if(time==0){
-            day.setText("Nhấn để nhập ngày");
+            day.setText("Nhấn để nhập");
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
